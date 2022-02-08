@@ -15,6 +15,17 @@
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 
+    <!--funções java-->
+    <script type="text/javascript">
+        function abrir(){
+            document.getElementById('popup') .style.display = 'block';
+        }
+
+        function fechar(){
+            document.getElementById('popup') .style.display = 'none';
+        }
+    </script>
+
     <title>BookFlix</title>
 </head>
 
@@ -25,8 +36,8 @@
             <nav>
                 <a href="#livro-capa">Home</a>
                 <a href="#sec-livros">Livros</a>
-                <a href="#sec_sobrebookflix">Sobre a BookFlix</a>
-                <a href="#sec_contato">Contato</a>
+                <a href="#sec-sobrebookflix">Sobre a BookFlix</a>
+                <a href="#sec-contato">Contato</a>
             </nav>
         </div>
     </header>
@@ -43,42 +54,141 @@
                 <button role="button" class="button_">
                     <!--script de icone de DOWLOAD-->
                     <i class="fas fa-file-download"></i>
-                    LEIA AGORA                     
+                    <a link-style="none" href="pdf/Pai Rico, Pai Pobre - Robert T. Kiyosaki.pdf">LEIA AGORA</a>                     
                 </button>
 
-                <button role="button" class="button_">
+                <button role="button" class="button_ magnificPopup">
                      <!--script de icone de DOWLOAD-->
-                    <i class="fal fa-info-square"></i>
-                    Mais Informações
+                     <i class="fas fa-info-circle"></i>
+                     <a href="javascript: abrir();">MAIS INFORMAÇÕES</a>
                 </button>
+                
+                <div id="popup" class="popup">
+                    <a href="javascript: fechar();"><i class="fas fa-times"></i></a>
+                    <div>
+                        <h4 class="subtitle">Pai Rico Pai Pobre </h4>                        
+
+                        <p>                           
+                            Pai Rico, Pai Pobre conta à história do norte-americano Robert Kiyosaki. Ele conseguiu ser um investidor de sucesso e conquistar a independência financeira. ... Foi dele que Robert recebeu as primeiras noções sobre o valor do dinheiro. Conselhos bem diferentes dos dados por seu verdadeiro pai, a quem chama de "Pai Pobre". <br>
+                        </p>
+
+                        <p>
+                            <br><br>
+                            Autor: Robert Kiwiosaki
+                        </p>
+
+                    </div>
+                </div>
+
+                <button role="button"class="button_">
+                    <i class="fas fa-shopping-cart"></i>
+                    <a href="https://www.amazon.com.br/Pai-rico-pai-pobre-anos/dp/8550801488/ref=asc_df_8550801488/?tag=googleshopp00-20&linkCode=df0&hvadid=379816235492&hvpos=&hvnetw=g&hvrand=123293143515857765&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9101169&hvtargid=pla-394733036063&psc=1">Comprar Livro</a>
+                </button>
+
             </div>
         </div>
     </main>
 
-    <div id="sec-livros">
+    <div id="sec-livros" class="carrossel-livros">
         <div class="container">
-            <div class="carrossel-livros">
-
+            <h3 class="subtitle">DESTAQUES</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <a href=""><img class="box-livros" src="img/1-a-sutil_arte.jpg" alt="" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href=""><img class="box-livros" src="img/2-como-evitar-preocupacoes.jpg" alt="" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href=""><img class="box-livros" src="img/3-inteligencia-social.jpg" alt="" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href=""><img class="box-livros" src="img/4-mindset.jpg" alt="" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href=""><img class="box-livros" src="img/5-o-jeito-harvard-de-ser-feliz.jpg" alt="" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href=""><img class="box-livros" src="img/6-o-milagre-da-manha.jpg" alt="" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href=""><img class="box-livros" src="img/7-o-poder-da-acao.jpg" alt="" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href=""><img class="box-livros" src="img/8-o-poder-do-habito.jpg" alt="" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href=""><img class="box-livros" src="img/9-rapido-e-devagar.jpg" alt="" srcset=""></a>
+                </div>
+                <div class="item">
+                    <a href=""><img class="box-livros" src="img/10-seja-foda.jpg" alt="" srcset=""></a>
+                </div>
             </div>
         </div>
     </div>
+
+    <div id="sec-sobrebookflix" class="bookflix">
+        <div class="container">
+            <h3 class="bookflix title">BOOKFLIX</h3>
+
+            <p class="bookflix description">
+                Disponibilizamos a você acesso a milhares de e-books para leitura em qualquer hora e de qualquer lugar!! Veja qual de nossos plano tem seu perfil e assine já!!!
+            </p>
+
+            <button role="button" class="bookflix button_">
+                <i class="fas fa-shopping-cart"></i>
+                ASSINE AGORA
+            </button>
+        </div>
+    </div>
+
+    <div id="sec-contato" class="contact">
+        <div class="container">
+            <ul style="list-style: none;">
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/eduardosoara/" class="link">
+                        <i class="fab fa-linkedin"></i>
+                        https://www.linkedin.com/in/bookflix/
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.instagram.com/eduardosoara/" class="link">
+                        <i class="fab fa-instagram"></i>
+                        https://www.instagram.com/bookflix/
+                    </a>
+                </li>
+                <li>
+                    <i class="fab fa-whatsapp"></i>
+                    (99) 9999-9999
+                </li>
+                <li>
+                    <a href="mailto:eduardosoara@gmail.com" class="link">
+                        <i class="far fa-envelope"></i>
+                        contato@bookflix.com.br
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+   
+    <!--script de icones-->
+    <script src="https://kit.fontawesome.com/3a0835d388.js" crossorigin="anonymous"></script>
+    
+    <!--scripts owl jquery-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+
+     <!--scrits do projeto-->
+     <script src="js/owl/setup.js"></script>
+
+    <footer>
+        <div class="rodape">
+            Desenvolvido por Eduardo A Soares - Bootcamp Dio / Take Blip
+        </div>
+    </footer>
+    
+    
     
 </body>
-
-<footer>
-    <div class="container">
-        RODAPÉ
-    </div>
-</footer>
-
-<!--scrits do projeto-->
-<script src="js/setup.js"></script>
-
-<!--script de icones-->
-<script src="https://kit.fontawesome.com/3a0835d388.js" crossorigin="anonymous"></script>
-
-<!--scripts owl jquery-->
-<script src="js/owl/jquery.min.js"></script>
-<script src="js/owl/owl.carousel.min.js"></script>
 
 </html>
