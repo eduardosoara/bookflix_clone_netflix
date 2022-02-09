@@ -226,3 +226,64 @@ li{
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
+/* pagina individual cada livro*/
+.a-sultil-arte{
+    font-size: 16px;
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/1-a-sutil_arte-capa.jpg');
+    
+    height: 565px;
+    background-size:cover;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.a-sultil-arte .container{
+    margin-left: 50px;
+}
+
+.a-sultil-arte .title{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.a-sultil-arte .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.como-evitar{
+    font-size: 16px;
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/2-como-evitar-preocupacoes-capa.jpg');
+    
+    height: 565px;
+    background-size:cover;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.como-evitar .container{
+    margin-left: 50px;
+}
+
+.como-evitar .title{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.como-evitar .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}

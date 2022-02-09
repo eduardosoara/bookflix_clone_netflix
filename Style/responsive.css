@@ -9,10 +9,30 @@
         width: 250px;
         flex-direction: column;
     }
+
+    .a-sutil-arte .container .button_{
+        margin-top: 5px;
+        width: 250px;
+        flex-direction: column;
+    }
+
+    .como-evitar .container .button_{
+        margin-top: 5px;
+        width: 250px;
+        flex-direction: column;
+    }
 }
 
 @media screen and (min-width:1000px){
     .livro-principal .description{
+        width: 50%;
+    }
+
+    .a-sutil-arte .description{
+        width: 50%;
+    }
+
+    .como-evitar .description{
         width: 50%;
     }
     
