@@ -263,6 +263,7 @@ li{
     text-align: justify;
 }
 
+
 .como-evitar{
     font-size: 16px;
     
@@ -292,6 +293,7 @@ li{
     margin-bottom: 40px;
     text-align: justify;
 }
+
 
 .inteligencia-social{
     font-size: 16px;
@@ -323,6 +325,7 @@ li{
     text-align: justify;
 }
 
+
 .mindset{
     font-size: 16px;
     
@@ -352,6 +355,7 @@ li{
     margin-bottom: 40px;
     text-align: justify;
 }
+
 
 .o-jeito-harvard{
     font-size: 16px;
@@ -383,6 +387,7 @@ li{
     text-align: justify;
 }
 
+
 .o-milagre-da-manha{
     font-size: 16px;
     
@@ -412,3 +417,128 @@ li{
     margin-bottom: 40px;
     text-align: justify;
 }
+
+
+.o-poder-da-acao{
+    font-size: 16px;
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/7-o-poder-da-acao-capa.jpg');
+    
+    height: 508px;
+    background-size:cover;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.o-poder-da-acao .container{
+    margin-left: 50px;
+}
+
+.o-poder-da-acao .title{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.o-poder-da-acao .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+
+.o-poder-do-habito{
+    font-size: 16px;
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/8-o-poder-do-habito-capa.jpg');
+    
+    height: 508px;
+    background-size:cover;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.o-poder-do-habito .container{
+    margin-left: 50px;
+}
+
+.o-poder-do-habito .title{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.o-poder-do-habito .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+
+.rapido-e-devagar{
+    font-size: 16px;
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/9-rapido-e-devagar-capa.jpg');
+    
+    height: 508px;
+    background-size:cover;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.rapido-e-devagar .container{
+    margin-left: 50px;
+}
+
+.rapido-e-devagar .title{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.rapido-e-devagar .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+
+.seja-foda{
+    font-size: 16px;
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/10-seja-foda-capa.jpg');
+    
+    height: 508px;
+    background-size:cover;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.seja-foda .container{
+    margin-left: 50px;
+}
+
+.seja-foda .title{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.seja-foda .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
