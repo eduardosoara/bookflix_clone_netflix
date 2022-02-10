@@ -118,7 +118,7 @@ header nav a:hover{
     position: fixed;
     top: 0; bottom: 0;
     left: 0; right: 0;
-    background: var(--preta);
+    
     margin: auto;
     padding: 50px;
     width: 700px;
@@ -126,6 +126,7 @@ header nav a:hover{
     color: white;
     display: none;
     text-align: justify;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/livro-popup.jpg');
     
   }
   .popup i{
@@ -219,12 +220,16 @@ li{
 
 /*rodapé da página*/
 .rodape{
-    text-align: center;
-    color: gray;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10;
     padding-top: 30px;
     padding-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    size: 100%;
+    background-color: rgb(63, 63, 63);
+    justify-content: center;
 }
 
 /* pagina individual cada livro*/
@@ -233,7 +238,7 @@ li{
     
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/1-a-sutil_arte-capa.jpg');
     
-    height: 565px;
+    height: 508px;
     background-size:cover;
         
     display: flex;
@@ -263,7 +268,7 @@ li{
     
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/2-como-evitar-preocupacoes-capa.jpg');
     
-    height: 565px;
+    height: 508px;
     background-size:cover;
         
     display: flex;
@@ -283,6 +288,126 @@ li{
 }
 
 .como-evitar .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.inteligencia-social{
+    font-size: 16px;
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/3-inteligencia-social-capa.jpg');
+    
+    height: 508px;
+    background-size:cover;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.inteligencia-social .container{
+    margin-left: 50px;
+}
+
+.inteligencia-social .title{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inteligencia-social .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.mindset{
+    font-size: 16px;
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/4-mindset-capa.jpg');
+    
+    height: 508px;
+    background-size:cover;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mindset .container{
+    margin-left: 50px;
+}
+
+.mindset .title{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.mindset .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.o-jeito-harvard{
+    font-size: 16px;
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/5-o-jeito-harvard-de-ser-feliz-capa.jpg');
+    
+    height: 508px;
+    background-size:cover;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.o-jeito-harvard .container{
+    margin-left: 50px;
+}
+
+.o-jeito-harvard .title{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.o-jeito-harvard .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.o-milagre-da-manha{
+    font-size: 16px;
+    
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/6-o-milagre-da-manha-capa.jpg');
+    
+    height: 508px;
+    background-size:cover;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.o-milagre-da-manha .container{
+    margin-left: 50px;
+}
+
+.o-milagre-da-manha .title{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.o-milagre-da-manha .description{
     margin-top: 10px;
     margin-bottom: 40px;
     text-align: justify;
