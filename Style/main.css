@@ -85,6 +85,8 @@ header nav a:hover{
 }
 
 .button_{
+    font: inherit;
+    
     background-color: rgba(0, 0, 0, 0.50);
     border: none;
     color: white;
@@ -129,6 +131,7 @@ header nav a:hover{
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/livro-popup.jpg');
     
   }
+
   .popup i{
     padding-left: 600px;
     padding-bottom: 30px;
@@ -163,7 +166,7 @@ header nav a:hover{
 .bookflix .container{
     background: url('../img/sobre_bookflix.jpg');
     height: 610px;
-    color: #141414;
+    color: black;
 
     display: flex;
     flex-direction: column;
@@ -177,7 +180,9 @@ header nav a:hover{
 }
 
 .bookflix .container .description{
-    color:rgba(0, 0, 0, 0.50);
+    display: flex;
+    background-size: cover;
+    
     font-size: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -210,7 +215,7 @@ header nav a:hover{
     padding-top: 170px;
     text-align: left;
     font-size: 32px;
-    color: #141414;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -238,7 +243,7 @@ li{
     
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/1-a-sutil_arte-capa.jpg');
     
-    height: 508px;
+    height: 565px;
     background-size:cover;
         
     display: flex;
@@ -269,7 +274,7 @@ li{
     
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/2-como-evitar-preocupacoes-capa.jpg');
     
-    height: 508px;
+    height: 565px;
     background-size:cover;
         
     display: flex;
@@ -300,7 +305,7 @@ li{
     
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/3-inteligencia-social-capa.jpg');
     
-    height: 508px;
+    height: 565px;
     background-size:cover;
         
     display: flex;
@@ -331,7 +336,7 @@ li{
     
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/4-mindset-capa.jpg');
     
-    height: 508px;
+    height: 565px;
     background-size:cover;
         
     display: flex;
@@ -362,7 +367,7 @@ li{
     
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/5-o-jeito-harvard-de-ser-feliz-capa.jpg');
     
-    height: 508px;
+    height: 565px;
     background-size:cover;
         
     display: flex;
@@ -393,7 +398,7 @@ li{
     
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/6-o-milagre-da-manha-capa.jpg');
     
-    height: 508px;
+    height: 565px;
     background-size:cover;
         
     display: flex;
@@ -424,7 +429,7 @@ li{
     
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/7-o-poder-da-acao-capa.jpg');
     
-    height: 508px;
+    height: 565px;
     background-size:cover;
         
     display: flex;
@@ -455,7 +460,7 @@ li{
     
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/8-o-poder-do-habito-capa.jpg');
     
-    height: 508px;
+    height: 565px;
     background-size:cover;
         
     display: flex;
@@ -486,7 +491,7 @@ li{
     
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/9-rapido-e-devagar-capa.jpg');
     
-    height: 508px;
+    height: 565px;
     background-size:cover;
         
     display: flex;
@@ -517,7 +522,7 @@ li{
     
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/10-seja-foda-capa.jpg');
     
-    height: 508px;
+    height: 565px;
     background-size:cover;
         
     display: flex;
