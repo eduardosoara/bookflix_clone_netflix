@@ -10,70 +10,24 @@
         flex-direction: column;
     }
 
-    .a-sutil-arte .container .button_{
+    .container .button_{
         margin-top: 5px;
         width: 250px;
         flex-direction: column;
     }
 
-    .como-evitar .container .button_{
+    .bookflix .title{
+        padding-top: 70px;
+    }
+
+    .bookflix .button_{
         margin-top: 5px;
         width: 250px;
         flex-direction: column;
     }
 
-    .inteligencia-social .container .button_{
-        margin-top: 5px;
-        width: 250px;
-        flex-direction: column;
-    }
-
-    .mindset .container .button_{
-        margin-top: 5px;
-        width: 250px;
-        flex-direction: column;
-    }
-
-    .mindset .container .button_{
-        margin-top: 5px;
-        width: 250px;
-        flex-direction: column;
-    }
-
-    .o-jeito-harvard .container .button_{
-        margin-top: 5px;
-        width: 250px;
-        flex-direction: column;
-    }
-
-    .o-milagre-da-manha .container .button_{
-        margin-top: 5px;
-        width: 250px;
-        flex-direction: column;
-    }
-
-    .o-poder-da-acao .container .button_{
-        margin-top: 5px;
-        width: 250px;
-        flex-direction: column;
-    }
-
-    .o-poder-do-habito .container .button_{
-        margin-top: 5px;
-        width: 250px;
-        flex-direction: column;
-    }
-
-    .rapido-e-devagar .container .button_{
-        margin-top: 5px;
-        width: 250px;
-        flex-direction: column;
-    }
-
-    .seja-foda .container .button_{
-        margin-top: 5px;
-        width: 250px;
-        flex-direction: column;
+    .bookflix .container .description{
+        width: 50%;
     }
 }
 
@@ -82,65 +36,8 @@
         width: 50%;
     }
 
-    .a-sutil-arte .description{
+    .description{
         width: 50%;
     }
-
-    .como-evitar .description{
-        width: 50%;
-    }
-
-    .inteligencia-social .description{
-        width: 50%;
-    }
-
-    .mindset .description{
-        width: 50%;
-    }
-
-    .o-jeito-harvard .description{
-        width: 50%;
-    }
-
-    .o-milagre-da-manha .description{
-        width: 50%;
-    }
-
-    .o-poder-da-acao .description{
-        width: 50%;
-    }
-
-    .o-poder-do-habito .description{
-        width: 50%;
-    }
-
-    .rapido-e-devagar .description{
-        width: 50%;
-    }
-
-    .seja-foda .description{
-        width: 50%;
-    }
-    
 }
 
-@media screen and (max-width:1110px){
-    .bookflix .title{
-        padding-top: 70px;
-    }
-
-    .bookflix .container .description{
-        /*display: flex;
-        background-size: cover;
-        color:rgba(0, 0, 0, 0.50);
-        font-size: 20px;
-        padding-top: 40px;
-        padding-bottom: 40px;
-
-        font-family: Arial, Helvetica, sans-serif;
-        line-height: 40px;
-        text-align: justify;*/
-        width: 40%;
-    }
-
-}
